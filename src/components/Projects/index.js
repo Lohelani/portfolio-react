@@ -1,6 +1,8 @@
 import react from "react";
 import { MDBMask, MDBView, MDBContainer, MDBRow, MDBCol } from "mdbreact";
 
+
+
 function Projects(props) {
     return (
         <MDBView hover zoom>

@@ -1,12 +1,6 @@
+
 import React from "react";
-import { MDBMask, MDBView, MDBContainer, MDBRow, MDBCol } from "mdbreact";
-// import PaB from "../images/potentially-a-blog.png";
-// import SMRtrvl from "../images/smrtrvl.png";
-// import UserDirectory from "../images/user-directory.png";
-// //import "./style.css";
-// import WorkoutTracker from "../images/workout-tracker.png";
-// import WeatherDashboard from "../images/weather-dashboard.png";
-// import NoteTaker from "../images/note-taker.png";
+import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 import projects from "../portfolio.json";
 import Projects from "../components/Projects/index"
 
@@ -28,7 +22,7 @@ class Portfolio extends React.Component {
                         <MDBCol md="8">
                             <p>
                                 Below you can find just a few samples of my work from projects of mine.
-                        </p>
+                            </p>
                         </MDBCol>
                         <MDBCol md="6">
                             <p>
@@ -40,14 +34,11 @@ class Portfolio extends React.Component {
                         <MDBCol md="6">
                             {this.state.projects.map(project => (
                                 <Projects
-
                                     stateDef={this.stateDef}
                                     key={project.id}
                                     id={project.id}
                                     name={project.name}
-
                                     image={project.image}
-                                    
                                     description={project.description}
                                     href={project.href}
                                 />
