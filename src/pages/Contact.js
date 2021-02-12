@@ -19,7 +19,7 @@ function Contact() {
                     </Col>
                     <Col size="md-6">
                         <p>
-                            Here you can find various ways 
+                            Here you can find various ways to contact me: 
                         </p>
                     </Col>
                 </Row>
